@@ -4,8 +4,12 @@ const courseButton = document.getElementById('courseButton');
 const messageElement = document.getElementById('message');
 
 // Array of friendly courses
-const courses = ["INFM 109","SDEV 120"];
-
+const courses = [
+"INFM 109",
+"SDEV 120",
+"SDEV 140", 
+"SDEV 255",
+    ];
 // Click event handler
 courseButton.addEventListener('click', function() {
     // Pick a random courseing
